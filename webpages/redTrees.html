@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/redTrees.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="toggle" id="navHamburger">
+            <i class="fas fa-bars"></i>
+        </a>
+        <a href="#" class="brand">TDDragonKnight</a>
+        <div class="left">
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
+            <a href="#" class="link">Link 3</a>
+        </div>
+        <div class="right">
+            <a href="index.html" class="linkRight">Home</a>
+        </div>
+    </div>
+    <div class="page_title">
+        <h1>Welcome!</h1>
+    </div>
+    <div class="intro_text">
+        <p>I'm so glad that your are here!</p>
+        <p>Let's tell you some thing about me!</p>
+    </div>
+    <div class="container">
+        <img src="../images/redtrees.jpg" alt="">
+        <h2>So lets git into it...</h2>
+        <p>Some text...</p>
+        <br>
+        <h2>Another heading</h2>
+    </div>
+</body>
+<script>
+    const navHamburger = document.querySelector('#navHamburger');
+    navHamburger.addEventListener('click', (e) => {
+        navHamburger.parentElement.classList.toggle('active');
+    }) 
+</script>
+
+</html>

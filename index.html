@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Webpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" class="toggle" id="navHamburger">
+            <i class="fas fa-bars"></i>
+        </a>
+        <a href="#" class="brand">TDDragonKnight</a>
+        <div class="left">
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
+            <a href="#" class="link">Link 3</a>
+        </div>
+        <div class="right">
+            <a href="index.html" class="linkRight">Home</a>
+        </div>
+    </div>
+    <div class="page_title">
+        <h1>Welcome!</h1>
+    </div>
+    <div class="intro_text">
+        <p>I'm so glad that your are here!</p>
+        <p>Each image tells you something about me.</p>
+        <p>Click an image below and see where it takes you!</p>
+    </div>
+    <div class="container">
+        <div class="scary">
+            <a href="webpages/scaryGirl.html">
+                <img src="images/scary.jpeg" class="links resize" alt="scary girl">
+            </a>
+            <a href="webpages/gasMask.html">
+                <img src="images/gasmask.png" class="links resize" alt="a gasmask">
+            </a>
+            <a href="webpages/ship.html">
+                <img src="images/Ship.jpg" class="links resize" alt="old ship">
+            </a>
+            <a href="webpages/sky.html">
+                <img src="images/sky.jpg" class="links resize" alt="night sky">
+            </a>
+            <a href="webpages/trip.html">
+                <img src="images/trip.jpg" class="links resize" alt="crazy space thing">
+            </a>
+            <a href="webpages/batman.html">
+                <img src="images/batman.jpg" class="links resize" alt="batman">
+            </a>
+            <a href="webpages/city.html">
+                <img src="images/city.jpg" class="links resize" alt="city">
+            </a>
+            <a href="webpages/darkForest.html">
+                <img src="images/darkforest.jpg" class="links resize" alt="dark forest">
+            </a>
+            <a href="webpages/cpu.html">
+                <img src="images/cpu.jpg" class="links resize" alt="Central Processing Unit">
+            </a>
+            <a href="webpages/redTrees.html">
+                <img src="images/redtrees.jpg" class="links resize" alt="trees with red leaves">
+            </a>
+        </div>
+    </div>
+</body>
+<script>
+    const navHamburger = document.querySelector('#navHamburger');
+    navHamburger.addEventListener('click', (e) => {
+        navHamburger.parentElement.classList.toggle('active');
+    }) 
+</script>
+
+</html>
