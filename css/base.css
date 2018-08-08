@@ -17,14 +17,14 @@ body {
 .intro_text {
     color: red;
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .navbar {
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 60%);
-    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 60%);
-    background: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 60%);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
     font-size: 18px;
 }
@@ -82,13 +82,13 @@ body {
     padding: 1em;
     color: #c91010;
 }
-@media (min-width: 48em) {
+@media (min-width: 70em) {
     .navbar {
         display: flex;
         background: black;
-        background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(201,16,16,1) 60%);
-        background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(201,16,16,1) 60%);
-        background: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(201,16,16,1) 60%);
+        background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(201,16,16,1) 60%);
+        background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(201,16,16,1) 60%);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(201,16,16,1) 60%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#c91010",GradientType=1);
     }
     .navbar .left,
@@ -106,12 +106,12 @@ body {
         display: none;
     }
 }
-@media (min-width: 48em) {
+@media (min-width: 70em) {
     .navbar div {
         display: flex;
     }
 }
-@media (max-width: 48em) {
+@media (max-width: 70em) {
     .navbar.active .toggle {
         background: black;
         color: #c91010; 
@@ -126,22 +126,37 @@ body {
 
 .container {
     margin: 0;
-    padding: 20px;
+    padding: 5px;
+    padding-top: 15px;
     height: auto;
-    width: 97.7vw;
+    width: auto;
     border: 1px solid red;
-    display: flex;
 }
 
 .container .content {
-    color: #c91010;
-    text-align: left;
-    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.container img {
-    border: 1px solid #c91010;
-    border-radius: 5px;
+.container p,
+.container h1 {
+    color: #c91010;
+    text-align: center;
+}
+
+.container p {
+    font-size: 30px;
+}
+
+.container .picture {
+    text-align: center;
+}
+
+.container .picture img {
     height: 216px;
     width: 384px;
+    border: 1px solid rgba(20,20,20,1);
+    box-shadow: 5px;
+    border-radius: 2px;
 }

@@ -62,9 +62,9 @@ body {
 
 .navbar {
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 60%);
-    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 60%);
-    background: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(0,0,0,0) 60%);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%);
+    background: linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
     font-size: 18px;
 }
@@ -126,9 +126,9 @@ body {
     .navbar {
         display: flex;
         background: black;
-        background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(201,16,16,1) 60%);
-        background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(201,16,16,1) 60%);
-        background: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(201,16,16,1) 60%);
+        background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(201,16,16,1) 60%);
+        background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(201,16,16,1) 60%);
+        background: linear-gradient(90deg, rgba(0,0,0,0) 40%, rgba(201,16,16,1) 60%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#c91010",GradientType=1);
     }
     .navbar .left,
